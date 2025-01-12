@@ -1,0 +1,125 @@
+/*CSS Reset*/
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small, main, header, footer, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: #05122D; 
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cormorant Garamond", sans-serif;
+}
+
+p, a, ol, ul, li, main, header, footer {
+    font-family: "Nunito Sans", sans-serif;
+    color:#fff;
+}
+
+/*Nav Style Rules*/
+.nav ul li {
+    width: 32.95%;
+    float: left; 
+    list-style: none;
+    font-size: 1.75em;
+    font-family: "Cormorant Garamond", serif;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+.nav ul li a {
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+    width: 100%; 
+    list-style: none;
+    margin: 0;
+    padding: 10px; 
+    background: #6F7D8C;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.nav ul li a, .nav ul li a:focus, .nav ul li a:visited {
+  color: #fff;
+  text-decoration: none; 
+  font-style: normal;
+}
+
+.nav ul li a:hover, .nav ul li a:active {
+    font-weight: bold;
+    text-decoration: none; 
+    font-style: none;
+}
+
+.nav ul li:first-child a {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; 
+}
+  .nav ul li:last-child a {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px; 
+}
+
+/*Search Bar Format*/
+.content #search {
+    width: 90%;
+    padding: 5%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content #search form {
+    width: 100%;
+    max-width: 700px;
+    background: #77A0A9;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.content #search form input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20ps;
+    color: #fff;
+    font-family: "Nunito Sans";
+}
+
+/*Button*/
+
+button {
+    color:#fff;
+    background-color: transparent;
+    border-color: #05122D;
+    border-radius: 8px;
+    font-size: 1.25em;
+}
+
+button:hover {
+    color:#fff;
+    border-color: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #fff;
+    font-size: 1.25em;
+}
+
+/*Content*/
+
+.content p{
+    font-style: italic;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    padding:0;
+}
